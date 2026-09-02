@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+	    <meta charset = "UTF-8">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+		<title>Practice</title>
+		<link rel = "stylesheet" href = "styles.css">
+	</head>
+	<body>
+	    <form>
+		   <label for = "lstk">
+		      <input type = "radio" id = "lstk" name = "selection" value = "lowstk">
+			  Low Stock
+		   </label><br>
+		   <label for = "instk">
+		      <input type = "radio" id = "instk" name = "selection" value = "instk">
+			  In-Stock
+		   </label><br>
+		   <label for = "nostk">
+		      <input type = "radio" id = "nostk" name = "selection" value = "nostk">
+			  No Stock
+		   </label><br>
+		   <label for = "chProd">
+		      <input type = "radio" id = "chProd" name = "selection" value = "chProd">
+			  Cheap Product
+		   </label><br>
+		   <label for = "rProd">
+		      <input type = "radio" id = "rProd" name = "selection" value = "rProd">
+			  Rare Product
+		   </label><br>
+		   <label for = "total">
+		      <input type = "radio" id = "total" name = "selection" value = "total">
+			  Get Total Value
+		   </label><br>
+		   <button id = "btn">Get List</button>
+		</form>
+	    <div id = "products">
+		</div>
+	    <script type = "module" src = "main.js"></script>
+	</body>
+</html>
